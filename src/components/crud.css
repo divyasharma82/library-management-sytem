@@ -1,0 +1,105 @@
+body {
+  background-color: #000000;
+  background-image: url('../../public/libraryBooks.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: #fcf7f7;
+  margin-bottom: 30px;
+}
+input[type='text'] {
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.submit-btn {
+  border: none;
+  padding: 12px 20px;
+  margin: 10px 0;
+  background-color: #4555c9;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.5 ease-in-out;
+}
+.submit-btn:hover {
+  transform: scale(0.9);
+  background-color: #2b1f6e;
+}
+ul {
+  list-style-type: none;
+}
+.book-list-container {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.del-btn,
+.update-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+.update-btn {
+  background-color: #28a745;
+}
+
+.cancel-btn {
+  background-color: #40dc35;
+  color: #fff;
+  border: none;
+  padding: 12px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 2px;
+}
+.cancel-btn:hover {
+  transform: scale(0.9);
+  background-color: #28a745;
+}
